@@ -1,1 +1,1 @@
-//Global variables
+//Global variabless
