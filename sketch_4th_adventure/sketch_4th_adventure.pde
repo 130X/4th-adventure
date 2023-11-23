@@ -1,5 +1,6 @@
 //global variabbles
 int appWidth, appHeight, smallerDimension;
+Boolean OS_On=false;
 //
 void setup() {
   //fullScreen();
@@ -11,9 +12,13 @@ displayAlgorithm();
 //
 } //End setup
 //
-void draw() {} //End draw
+void draw() {
+  if ( OS_On == true ) splashScreen();
+} //End draw
 //
-void mousePressed() {} //End mousePressed
+void mousePressed() {
+  if ( OS_On == false ) OS_On = true;
+} //End mousePressed
 //
 void keyPressed() {} //End keyPressed
 //
