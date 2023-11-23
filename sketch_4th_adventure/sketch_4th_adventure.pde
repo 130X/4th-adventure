@@ -2,9 +2,10 @@
 int appWidth, appHeight, smallerDimension;
 //
 void setup() {
-  size(600, 400);
+  //fullScreen();
+  size(1000, 700);
   appWidth = width; 
-  appHeight = height; 
+  appHeight = height;  
  
   smallerDimension = ( appWidth >= appHeight ) ? appHeight : appWidth;   
  
