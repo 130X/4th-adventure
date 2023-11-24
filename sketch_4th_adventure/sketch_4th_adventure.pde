@@ -1,6 +1,7 @@
 //global variabbles
 int appWidth, appHeight, smallerDimension;
 Boolean OS_On=false;
+PFont CenturyGothic-48;
 //
 void setup() {
   //fullScreen();
@@ -10,6 +11,9 @@ void setup() {
   //
 displayAlgorithm();
 //
+//Text Setup
+CenturyGothic-48 = createFont("CenturyGothic-48", 55 );
+
 } //End setup
 //
 void draw() {
