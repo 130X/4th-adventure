@@ -8,7 +8,7 @@ String spaceBar = "press the space BAR to continue";
 //
 void textSetup() {
 //
-  ChillerRegular = createFont("Chiller-Regular-48", 55 );
+  Chiller = createFont("Chiller", 55 );
 } //End text setup
 //
 void precodeText() {
@@ -19,7 +19,7 @@ void precodeText() {
 void splashScreenText() {
 //
   size = 30;
-  textFont(ChillerRegular, size); 
+  textFont(Chiller, size); 
   text(spaceBar, ssSpaceBarX, ssSpaceBarX, ssSpaceBarWidth,  ssSpaceBarHeight);
   //nofill();
   //
