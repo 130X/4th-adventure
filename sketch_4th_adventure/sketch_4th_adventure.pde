@@ -1,8 +1,8 @@
 //global variabbles
 int appWidth, appHeight, smallerDimension;
 Boolean OS_On=false;
-PFont Chiller-Regular-48;    
-float ssSpaceBarX, ssSpaceBarY, ssSpaceBarWidth, ssSpacebarHeight;
+PFont ChillerRegular;    
+float ssSpaceBarX, ssSpaceBarY, ssSpaceBarWidth, ssSpaceBarHeight;
 //
 void setup() {
   //fullScreen();
