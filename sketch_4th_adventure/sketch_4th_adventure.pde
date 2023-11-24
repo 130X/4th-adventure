@@ -2,6 +2,7 @@
 int appWidth, appHeight, smallerDimension;
 Boolean OS_On=false;
 PFont CenturyGothic-48;
+float ssSpaceBarX, ssSpaceBarY, ssSpaceBarWidth, ssSpacebarHeight;
 //
 void setup() {
   //fullScreen();
@@ -12,8 +13,16 @@ void setup() {
 displayAlgorithm();
 //
 //Text Setup
-CenturyGothic-48 = createFont("CenturyGothic-48", 55 );
-
+  CenturyGothic-48 = createFont("CenturyGothic-48", 55 );
+//Population 
+  float centerX=appWidth*1/2, centerY=appHeight*1/2; 
+  ssSpaceBarX = centerX - ssSpaceBarWidth*1/2; 
+  ssSpaceBarX =  centerY - ssSpaceBarHeight*1/2;
+  ssSpaceBarWidth = appWidth*1/2;
+  ssSpaceBarHeight = appHeight*1/10;
+  //
+//DIVs
+  rect( ssSpaceBarX, ssSpaceBarX, ssSpaceBarWidth, ssSpaceBarWidth, ssSpaceBarHeight); 
 } //End setup
 //
 void draw() {
