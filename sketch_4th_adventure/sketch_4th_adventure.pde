@@ -1,7 +1,7 @@
 //global variabbles
 int appWidth, appHeight, smallerDimension;
 Boolean OS_On=false;
-PFont CenturyGothic-48;
+PFont Chiller-Regular-48;    
 float ssSpaceBarX, ssSpaceBarY, ssSpaceBarWidth, ssSpacebarHeight;
 //
 void setup() {
@@ -11,9 +11,8 @@ void setup() {
   appHeight = height;  
   //
 displayAlgorithm();
+textSetup();
 //
-//Text Setup
-  CenturyGothic-48 = createFont("CenturyGothic-48", 55 );
 //Population 
   float centerX=appWidth*1/2, centerY=appHeight*1/2; 
   ssSpaceBarX = centerX - ssSpaceBarWidth*1/2; 
@@ -22,11 +21,12 @@ displayAlgorithm();
   ssSpaceBarHeight = appHeight*1/10;
   //
 //DIVs
-  rect( ssSpaceBarX, ssSpaceBarX, ssSpaceBarWidth, ssSpaceBarWidth, ssSpaceBarHeight); 
+  //rect( ssSpaceBarX, ssSpaceBarX, ssSpaceBarWidth, ssSpaceBarHeight); 
 } //End setup
 //
 void draw() {
   if ( OS_On == true ) splashScreen();
+  
 } //End draw
 //
 void mousePressed() {
