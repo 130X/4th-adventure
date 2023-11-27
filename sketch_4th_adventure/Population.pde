@@ -5,5 +5,9 @@ void Population() {
   ssSpaceBarX =  centerY - ssSpaceBarHeight*1/2;
   ssSpaceBarWidth = appWidth*1/2;
   ssSpaceBarHeight = appHeight*1/10;
+  backgroundX = appWidth*0;
+  backgroundY= appHeight*0;
+  backgroundWdith = appWidth-1;
+  backgroundHeight = appHeight-1;
   //
 } //End Population 

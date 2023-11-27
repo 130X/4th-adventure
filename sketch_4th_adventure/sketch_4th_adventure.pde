@@ -3,7 +3,7 @@ int appWidth, appHeight, smallerDimension;
 Boolean OS_On=false, ProgramStarting=false;
 PFont Calibri;    
 float ssSpaceBarX, ssSpaceBarY, ssSpaceBarWidth, ssSpaceBarHeight;
-color resetColour=white=#FFFFFF;
+color resetColour=#FFFFFF, white=#FFFFFF;
 //
 void setup() {
   //fullScreen();
