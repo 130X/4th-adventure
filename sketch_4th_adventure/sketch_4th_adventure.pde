@@ -1,6 +1,6 @@
 //global variabbles
 int appWidth, appHeight, smallerDimension;
-Boolean OS_On=false;
+Boolean OS_On=false, ProgramStarting=false;
 PFont Calibri;    
 float ssSpaceBarX, ssSpaceBarY, ssSpaceBarWidth, ssSpaceBarHeight;
 //
@@ -26,7 +26,8 @@ textSetup();
 //
 void draw() {
   //
-  if ( OS_On == true ) splashScreen();
+  if ( OS_On == true && ProgramStarting == false ) splashScreen();
+  if ( OS_On == true && ProgramStarting == true  ) HomeScreen(); 
   
 } //End draw
 //
@@ -35,6 +36,12 @@ void mousePressed() {
   if ( OS_On == false ) OS_On = true;
 } //End mousePressed
 //
-void keyPressed() {} //End keyPressed
+void keyPressed() {
+//
+  if ( key== ) ProgramStarting = true;
+  
+
+} //End keyPressed
+//
 //
 //End MAIN Programables
