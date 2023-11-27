@@ -25,11 +25,13 @@ textSetup();
 } //End setup
 //
 void draw() {
+  //
   if ( OS_On == true ) splashScreen();
   
 } //End draw
 //
 void mousePressed() {
+  //
   if ( OS_On == false ) OS_On = true;
 } //End mousePressed
 //

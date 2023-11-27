@@ -24,7 +24,6 @@ void splashScreenText() {
   //nofill();
   //
   fill(resetDefualtInk);
-  //
 } //End splash screen text
 //
 // End Text
