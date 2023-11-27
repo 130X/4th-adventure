@@ -1,7 +1,7 @@
 //global variabbles
 int appWidth, appHeight, smallerDimension;
 Boolean OS_On=false;
-PFont Chiller;    
+PFont Calibri;    
 float ssSpaceBarX, ssSpaceBarY, ssSpaceBarWidth, ssSpaceBarHeight;
 //
 void setup() {
