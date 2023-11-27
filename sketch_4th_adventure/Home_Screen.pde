@@ -1,8 +1,9 @@
 //Global Variables
 //
 void HomeScreen() {
-  println("Arrived at the Home Screen"); //Go to Images for Code
+  //
+  println("Arrived at the Home Screen"); //Go to Images for Code; //Main to subprogram, Verification 
 } // End Home Screen
-//
+  //
 // End Home Screen Main
  

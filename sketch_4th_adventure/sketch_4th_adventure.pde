@@ -12,7 +12,7 @@ void setup() {
   //
 displayAlgorithm();
 textSetup();
-//
+  //
 //Population 
   float centerX=appWidth*1/2, centerY=appHeight*1/2; 
   ssSpaceBarX = centerX - ssSpaceBarWidth*1/2; 
@@ -23,24 +23,27 @@ textSetup();
 //DIVs
   //rect( ssSpaceBarX, ssSpaceBarX, ssSpaceBarWidth, ssSpaceBarHeight); 
 } //End setup
-//
+  //
 void draw() {
   //
   if ( OS_On == true && ProgramStarting == false ) splashScreen();
   if ( OS_On == true && ProgramStarting == true  ) HomeScreen(); 
   
 } //End draw
-//
+  //
 void mousePressed() {
   //
   if ( OS_On == false ) OS_On = true;
 } //End mousePressed
-//
+  //
 void keyPressed() {
-//
-  if ( key== ) ProgramStarting = true;
-  
-
+  //
+  if ( key== ' ' ) ProgramStarting = true;
+  //
+  //Keyboard short Cuts
+  if (key==CODED || keyCode==ESC ) exit();
+  if (key== 'Q' || key== 'q') exit();
+  //
 } //End keyPressed
 //
 //
