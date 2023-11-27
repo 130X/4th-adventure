@@ -11,9 +11,10 @@ void setup() {
   appWidth = width; 
   appHeight = height;  
   //
-displayAlgorithm();
-textSetup();
-Population();
+  displayAlgorithm();
+  textSetup();
+  Population();
+  loadImagesSetup();
 //DIVs
   //rect( ssSpaceBarX, ssSpaceBarX, ssSpaceBarWidth, ssSpaceBarHeight); 
 } //End setup
