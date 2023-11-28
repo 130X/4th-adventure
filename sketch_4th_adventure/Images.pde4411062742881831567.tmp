@@ -1,12 +1,12 @@
 //Global Varaibles
-int backgroundX, backgroundY, backgroundWidth, backgroundHeight; 
-PImage backgroundImage, cookieImage; 
+int backgroundX, backgroundY, backgroundWdith, backgroundHeight; 
+PImage backGroundImage;
 //
 void backgroundRect() {
   //
   fill(white);
   noStroke();
-  rect( backgroundX, backgroundY, backgroundWidth, backgroundHeight );
+  rect( backgroundX, backgroundY, backgroundWdith, backgroundHeight );
   stroke(1);
   fill(resetColour);
   //
@@ -23,7 +23,7 @@ void backgroundImage() {
 void loadImagesSetup() {
   //
   String Pathway ="../Images/";
-  String Orangecookie = "Orangecookie.jpg";
+  String Orangecookie = "Orangecookie.jpg"
   backgroundImage=loadImage(Pathway + cookieImage);
   //
 }// End loadImagesSetup 
