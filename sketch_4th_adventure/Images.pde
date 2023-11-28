@@ -22,7 +22,7 @@ void backgroundImage() {
 //
 void loadImagesSetup() {
   //
-  backgroundImage=loadImage("../Image/(imagehere.jpg)")
+  backgroundImage=loadImage("../Image/(imagehere.jpg)");
   //
 }// End loadImagesSetup 
 //
