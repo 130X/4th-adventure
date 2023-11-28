@@ -1,6 +1,6 @@
 //Global Varaibles
 int backgroundX, backgroundY, backgroundWidth, backgroundHeight;
-PImage backgroundImage, cookieImage;
+PImage backgroundImage;
 //
 void backgroundRect() {
   //
@@ -16,15 +16,15 @@ void backgroundImage() {
   //
   backgroundRect();
   //Tint Code: Brightness, night mode
-  image( backgroundImage, backgroundX, backgroundY, backgroundWidth, backgroundHeight);
+  image( backgroundImage, backgroundX, backgroundY, backgroundWidth, backgroundHeight );
   //
 } //End background Image
 //
 void loadImagesSetup() {
   //
-  String Pathway ="../Images/";
-  String Orangecookie = "Orangecookie.jpg";
-  backgroundImage=loadImage(Pathway + cookieImage);
+  String Pathway = "../Images/";
+  String Orangecookie = "Orangecookies.jpg";
+  backgroundImage=loadImage(Pathway + Orangecookie);
   //
 }// End loadImagesSetup
 //
