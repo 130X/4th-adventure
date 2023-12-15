@@ -37,7 +37,7 @@ void keyPressed() {
   //
   //Keyboard short Cuts
   if (key==CODED || keyCode==ESC ) exit();
-  if (key== 'Q' || key== 'q') exit();
+  if (key== 'Q' || key== 'q') exit();   
   //
 } //End keyPressed
 //
